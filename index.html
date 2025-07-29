@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Drawn-Together Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro">
+    <h1>🔮 Drawn-Together: CyberDev Portal</h1>
+    <p>Realtime dev logs, sneak peeks, and AI-powered progress, reimagined in neon.</p>
+  </div>
+
+  <section class="progress-section">
+    <h2>📊 Live Progress</h2>
+    <div class="progress-bar-container">
+      <div class="progress-bar" style="width: 67%;">67%</div>
+    </div>
+    <canvas id="progressChart"></canvas>
+  </section>
+
+  <section class="sneak-peeks">
+    <h2>🖼️ Sneak Peeks</h2>
+    <div class="gallery">
+      <img src="sneak-peeks/art1.jpg" alt="Sneak 1" />
+      <img src="sneak-peeks/art2.jpg" alt="Sneak 2" />
+    </div>
+  </section>
+
+  <section class="logs">
+    <h2>📝 Latest Dev Log</h2>
+    <div class="log-box">
+      <pre>
+July 29, 2025 - Added AI auto-commit for logs and visuals.
+July 28, 2025 - Deployed base GitHub Pages layout and linked API automation.
+      </pre>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
