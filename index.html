@@ -80,3 +80,18 @@
   </script>
 </body>
 </html>
+
+<section id="log-area">
+  <h2>Development Log</h2>
+  <pre id="dev-log">Loading logs...</pre>
+</section>
+
+<script>
+  async function fetchLogs() {
+    const res = await fetch('logs.md');
+    const text = await res.text();
+    document.getElementById('dev-log').innerText = text;
+  }
+
+  fetchLogs();
+</script>
