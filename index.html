@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drawn Together Dev Hub</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="scripts/refresh.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Drawn Together: Cyberpunk Dev Portal</h1>
+    <audio controls autoplay loop>
+      <source src="assets/bg-music.mp3" type="audio/mpeg" />
+      Your browser does not support audio.
+    </audio>
+  </header>
+  <nav>
+    <button onclick="refreshContent()">🔄 Refresh</button>
+  </nav>
+  <section id="logs">
+    <h2>Dev Logs</h2>
+    <div id="devLogs">Loading logs...</div>
+  </section>
+  <section id="progress">
+    <h2>Progress</h2>
+    <img src="assets/progress-chart.png" alt="Progress Chart" />
+  </section>
+  <section id="gallery">
+    <h2>Sneak Peeks</h2>
+    <div class="gallery">
+      <img src="assets/sneak1.png" alt="Sneak Peek 1" />
+      <img src="assets/sneak2.png" alt="Sneak Peek 2" />
+      <img src="assets/sneak3.png" alt="Sneak Peek 3" />
+    </div>
+  </section>
+  <section id="builds">
+    <h2>Game Builds</h2>
+    <ul>
+      <li><a href="builds/alpha_0.1.zip" download>Alpha 0.1</a></li>
+    </ul>
+  </section>
+  <footer>© 2025 Drawn Together</footer>
+</body>
+</html>

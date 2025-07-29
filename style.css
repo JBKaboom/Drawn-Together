@@ -1,0 +1,7 @@
+body { background: #111; color: #0ff; font-family: 'Courier New', monospace; margin:0; padding:0; }
+header { text-align:center; padding:1em; background:#000; }
+nav { text-align:center; margin:1em; }
+section { padding:1em 2em; border-bottom:1px solid #0ff; }
+.gallery { display:flex; gap:1em; }
+.gallery img { width:30%; border:2px solid #0ff; }
+footer { text-align:center; padding:1em; background:#000; }
