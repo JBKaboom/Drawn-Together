@@ -1,13 +1,9 @@
 ---
-title: "Visuals"
+title: "Visuals & Progress"
 ---
 
-# 🎨 Game Visuals & Progress
+# Game Progress & Visuals
 
-Welcome to the visual progress tracker for *Drawn Together*.
+![Progress Chart](./assets/progress-chart.png)
 
-## 📊 Development Progress
-![Progress Chart](/assets/progress-chart.png)
-
-## 🖼️ Concept Art
-*(Drop your art images into `docs/assets/` and reference them here.)*
+_More visuals will appear here soon!_
