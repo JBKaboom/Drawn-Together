@@ -1,0 +1,16 @@
+
+theme: minima
+markdown: kramdown
+permalink: pretty
+
+nav:
+  - title: "Home"
+    url: /
+  - title: "Dev Logs"
+    url: /logs/
+  - title: "Progress"
+    url: /progress/
+  - title: "Milestones"
+    url: /milestones/
+  - title: "Gallery"
+    url: /gallery/
